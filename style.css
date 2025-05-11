@@ -10,3 +10,14 @@ h2 {
   color: darkred;
   font-weight: bold;
 }
+img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 30px;
+}

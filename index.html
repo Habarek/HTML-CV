@@ -4,13 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- script pour mettre des icone de fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/30acf960a9.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
     <header>
       <h1>Ali Habarek - Développeur web</h1>
+      <!-- la balise hr sert a faire des ligne horizontals -->
       <hr />
-      <a href="mailto:habarek1.ali@gmail.com">habarek1.ali@gmail.com</a>
+      <div class="contact">
+        <!-- l'attribu mailto: pour envoyer un mail directement -->
+        <!-- L'atttribu title="..." permet d'afficher au survol -->
+        <a href="mailto:habarek1.ali@gmail.com" target="_blank" title="Mail"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <!-- l'attribu tel: pour envoyer appeler directement -->
+
+        <a href="tel:0699763782" target="_blank" title="Numéro mobile"
+          ><i class="fa-solid fa-phone"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/ali-habarek
+
+"
+          target="_blank"
+          ><img
+            src="/img/logoLinkedin.png"
+            title="Profil Linkedin"
+            alt=""
+            srcset=""
+        /></a>
+        <a href="/img/CV2025.pdf" download="" title="Télécharger le CV"
+          ><i class="fa-solid fa-file"></i
+        ></a>
+      </div>
+
       <hr />
       <p>
         <em
@@ -75,7 +108,10 @@
           <li>Distribution du courrier</li>
         </ul>
 
-        <li><strong>2009 |</strong> <span class="travail">Bac STG</span></li>
+        <li>
+          <strong>2009 |</strong>
+          <span class="travail">Bac Science Technique Gestion</span>
+        </li>
         <ul>
           <li>Dormir</li>
           <li>Manger</li>
